@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify
 import requests
 import os
 
+
 app = Flask(__name__)
 
 SUPABASE_URL = os.getenv("SUPABASE_URL")
